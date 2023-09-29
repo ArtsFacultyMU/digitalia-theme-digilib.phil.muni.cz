@@ -1,0 +1,33 @@
+{# Check if the view has rows #} 
+{% if rows %}
+  {# Initialize a variable to store the current group value #}
+  {% set currentGroup = '' %}
+  {# Iterate through the rows #}
+  {% for row in rows %}
+
+    {# Check if the group value has changed #}
+    {% if currentGroup != row.grouping_field_value %}
+
+      {# Close the previous group's div if there was one #}
+      {% if currentGroup %}
+        </div>
+      {% endif %}
+
+      {# Open a new div for the current group #}
+      <div class="group-wrapper">
+      {# Set the current group value to the new value #}
+      {% set currentGroup = row.grouping_field_value %}
+    {% endif %}
+
+    {# Output the row content for each group #}
+    <div class="group-item">
+      {{ row.content }}
+      {{ row.content }}
+    </div>
+
+    {# Close the last group's div if it's the last row #}
+    {% if loop.last %}
+      </div>
+    {% endif %}
+  {% endfor %} 
+{% endif %}

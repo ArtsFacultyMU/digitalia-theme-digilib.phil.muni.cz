@@ -1,0 +1,1264 @@
+.region-primary-menu ul.menu > li.menu-item:nth-child(6) {
+	flex-grow: 2;
+}
+
+.region-primary-menu ul.menu > li.menu-item:last-child {
+	padding-right: 0;
+}
+
+
+
+/** main seach Google-like box */
+div.region-highlighted .button {
+    	border: white solid 2px;
+}
+
+div.region-highlighted > div {
+	background-color: #e9e8e3;
+	border-radius: 0px;
+	color: #555;
+	padding: 1rem;
+	height: 7rem;
+	background-image: url('/themes/islandora_muni/platform_specific/images/pole_search_design_digilib.jpg');
+/*
+	background-image: url('/themes/islandora_muni/top-search-background.png');
+	background-image: url('/themes/islandora_muni/background-transparent.png'); 
+	*/
+	background-size: contain;
+}
+
+div.region-highlighted h2 {
+	display: none;
+}
+
+div.main-search-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	margin: 0;
+	padding: 0;
+}
+
+div.main-search-forms {
+	margin: 0;
+	padding: 0;
+	flex-grow: 2;
+}
+
+div.top-search {
+	display: flex;
+}
+
+div.top-search > div.form-item-search {
+	flex-grow: 2;
+}
+
+div.top-search div.form-item-searched-fields > label {
+	display: none;
+}
+
+div.top-search div.form-item-search {
+	border: 1px solid white;
+	border-right: 2px dotted #555;
+	border-radius: 0px 0 0 0px;
+	height: 2rem;
+	background-color: white;
+	margin: 0;
+}
+
+div.top-search input.form-text {
+	background-image: url('/themes/islandora_muni/platform_specific/images/lupa2.svg');
+        background-repeat: no-repeat;
+	background-size: 1.5rem;
+	background-position: .5rem center;
+	padding-left: 3rem;	
+	background-color: white;
+	width: 100%;
+	height: 2rem;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 0;
+	padding-left: 3rem;
+}
+
+
+div.top-search select {
+	border: 1px solid white;
+	border-radius: 0px 0px 0px 0px;
+	margin-top: 1px;
+	height: 2.1rem;
+	margin: 0;
+	padding: 0;
+	padding-left: .3rem;
+	background-color: white;
+}
+
+div.top-search div.form-item {
+	margin: 0;
+	padding: 0;
+}
+
+div.top-search .form-actions {
+	padding-top: 0;
+}
+
+div.main-search-button {
+	padding: 0;
+	margin: 0;
+}
+
+div.view-dk-ff-titles div.form-actions,
+div.view-dk-ff-authors-page div.form-actions,
+div.main-search-button > div.form-actions {
+	margin: 0;
+	padding-top: 0;
+	padding-left: 1rem;
+}
+
+form#views-exposed-form-dk-ff-structured-search-page-page-1 input,
+form#views-exposed-form-dk-ff-search-page-page-1 input,
+form.contact-message-feedback-form input {
+	border: 1px solid white;
+	border-radius: 0;
+}
+
+form.contact-message-feedback-form input.button,
+div.view-dk-ff-titles input.button,
+div.view-dk-ff-authors-page input.button,
+div.main-search-button input.button {
+	background-color: #004899;
+	border-radius: 0;
+	height: 2.3rem;
+	padding: 0 0.6rem;
+	margin: 0;
+	margin-top: -2px;
+	min-width: 7rem;
+}
+
+
+div.view-dk-ff-titles > div.view-filters,
+div.view-dk-ff-authors-page > div.view-filters {
+	padding: 0 0;
+	margin: 1rem 0;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline,
+body.page-node-type-author form.views-exposed-form > div.form--inline,
+div.view-filters form.views-exposed-form > div.form--inline,
+div.view-dk-ff-authors-page form.views-exposed-form > div.form--inline,
+form.contact-message-feedback-form {
+	background-color: #e9e8e3;
+	border-radius: 0px;
+	padding: .2rem 1rem;
+}
+
+body.page-node-type-author form.views-exposed-form > div.form--inline,
+div.view-filters form.views-exposed-form > div.form--inline,
+div.view-dk-ff-authors-page form.views-exposed-form > div.form--inline {
+	display: flex;
+	align-items: flex-end;
+}
+
+
+div.view-dk-ff-author-works div.views-field-nothing > span {
+	/*display: flex;*/
+}
+
+div.view-dk-ff-author-works a, div.view-dk-ff-author-works a:visited {
+        color: #004899;
+        text-decoration: underline;
+	border-bottom: none;
+}
+
+div.view-dk-ff-author-works div.views-field-nothing > span > div::after {
+	content: " ";
+	white-space: pre;
+}
+
+div.block-views-exposed-filter-blockdk-ff-structured-search-page-page-1 > div.content > strong:first-child {
+	/* border: 1px solid #555; */
+}
+
+
+body.path-advanced-search  form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline {
+	display: block;
+	margin-top: 1rem;
+}
+
+body.path-advanced-search .bef-exposed-form .form--inline > .form-item {
+	float: none;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item {
+	margin: .3rem 0;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline {
+	padding: 1rem;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline {
+	display: flex;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline input.form-text {
+	min-width: 25rem;
+	margin-right: 1.5rem;
+}
+
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline select {
+	margin-right: 1.5rem;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-aggregated-field-published > input.form-text,
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-aggregated-field-published-to > input.form-text {
+	width: 10rem;
+	min-width: 10rem;
+	max-width: 10rem;
+}
+
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-aggregated-field-published {
+	padding-left: 1.7rem;
+}
+
+body.path-advanced-search div.form-item-aggregated-field-published-to:after {
+	content: " \2013 ";
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-aggregated-field-subject > input {
+	max-width: 15rem;
+	min-width: 15rem;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-type > div.description {
+	max-width: 25rem;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-type > select {
+	min-width: 25rem;
+}
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 > div.form--inline > div.form--inline > div.form-item-items-per-page > select {
+	min-width: 12rem;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	body.path-advanced-search div.form-item-field-department-mu select {
+		width: 18.6rem;
+	}
+}
+
+@media all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm) {
+	body.path-advanced-search div.form-item-field-department-mu select {
+		width: 17.8rem;
+	}
+}
+
+
+
+/*
+form > div.form--inline > div:nth-child(6) {	
+	border-top: 1px solid #ccc;
+	margin-top: 1rem;
+}
+*/
+
+body.path-advanced-search form#views-exposed-form-dk-ff-structured-search-page-page-1 div.form-actions {
+	padding: 1rem 0;
+}
+
+body.path-advanced-search div.form-item-aggregated-field-published {
+	margin-left: 1.3rem;
+}
+
+body.path-advanced-search .form-item, .form-actions {
+}
+
+body.path-advanced-search div.region-highlighted {
+	display: none;
+}
+
+
+article.node--type-author form.views-exposed-form {
+	margin-bottom: .5rem;
+}
+
+article.node--type-author div.js-form-type-select {
+	padding-left: 1rem;
+}
+
+article.node--type-author select {
+	border: 1px solid white;
+	border-radius: 0px;
+	height: 2.1rem;
+	margin: 0;
+	padding-left: .1rem;
+	background-color: white;
+}
+
+div.block-facet--dropdown select,
+div.views-exposed-form form select {
+	border: 1px solid white;
+	border-radius: 0px;
+	background-color: white;
+	height: 2.1rem;
+}
+
+div.block-facet--dropdown select {
+	border-color: #555;
+}
+
+
+div.view-dk-ff-titles  div.js-form-item,
+div.view-dk-ff-authors-page div.js-form-item {
+	margin: 0;
+	padding: 0;
+}
+
+div.view-dk-ff-titles input,
+div.view-dk-ff-authors-page input {
+	border: 1px solid white;
+	border-radius: 0px;	
+	outline: none;
+}
+
+
+div.bottom-search {
+	display: flex;
+}
+
+div.bottom-search > div.link {
+	flex-grow: 2;
+	margin-top: .5rem;
+	border-bottom: none;
+}
+
+div.bottom-search a,
+div.bottom-search a:hover,
+div.bottom-search a:visited {
+	color: #555;
+	font-weight: normal;
+}
+
+
+#main {
+	margin-top: 0;
+}
+
+#main-content {
+	display: none;
+}
+
+div.featured-top {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	background: none;
+	text-shadow: none;
+	border: none;
+}
+
+#content {
+	margin-top: 1.5rem;
+}
+
+nav.pager {
+	margin-top: 2rem;
+	
+}
+
+div.views-row {
+	margin-bottom: .5rem;
+}
+
+div.view-dk-ff-collections h3 {
+	font-weight: bold;
+        display: inline-block;
+	margin-right: 1rem;	
+	margin-top: 2rem;
+}
+
+div.view-dk-ff-collections div.view-content {
+	margin-top: -1rem;
+}
+
+body.page-node-type-serial div.field--type-image {
+	margin-right: 2rem;
+}
+
+.node div.field--type-image {
+	float: right;
+}
+
+div.field--type-image img {
+	width: 17rem;
+}
+
+
+div.view-dk-ff-eva-title > div > div.views-field-title > strong.views-label-title {
+	display: none;
+}
+
+div.view-dk-ff-eva-title > div > div.views-field-title > span {
+	color: #004899;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+div.view-dk-ff-eva-title > div > div.views-field-title {
+	margin-bottom: 2rem;
+	display: flex;
+}
+
+div.view-dk-ff-eva-title > div > div.views-field-title > span > div:first-child {
+	width: 100%;
+}
+
+
+div.view-dk-ff-eva-title > div > div.views-field-title > span > div:nth-child(2) {
+}
+
+div.field--name-field-domain a,
+div.field--name-field-domain a:visited,
+div.field--name-field-domain a:hover,
+div.field--name-field-department-mu a,
+div.field--name-field-department-mu a:visited,
+div.field--name-field-department-mu a:hover,
+article a,
+article a:visited,
+article a:hover,
+div.region-breadcrumb a,
+div.region-breadcrumb a:visited,
+div.region-breadcrumb a:hover {
+	color: #555;
+	font-weight: normal;
+}
+
+div.volume_group a,
+div.volume_group a:visited,
+div.volume_group a:hover {
+	color: #004899;
+}
+
+body.page-node-type-chapter h1,
+body.page-node-type-serial h1,
+body.page-node-type-article h1,
+body.page-node-type-book-series h1,
+body.page-node-type-issue h1,
+body.page-node-type-book h1,
+body.page-node-type-volume h1 {
+	display: none;
+}
+
+div.content div.field {
+	display: flex;
+}
+
+/* space between metadata labels */
+div.view-dk-ff-eva-identifiers > div > div:nth-child(2) {
+	margin-top: .4rem;
+}
+div.content div.views-element-container > div.view,
+div.content div.field {
+	margin-bottom: .5rem;
+}
+
+body.page-node-type-chapter div.content div.field,
+body.page-node-type-serial div.content div.field,
+body.page-node-type-article div.content div.field,
+body.page-node-type-book-series div.content div.field,
+body.page-node-type-issue div.content div.field,
+body.page-node-type-book div.content div.field,
+body.page-node-type-volume div.content div.field {
+	margin-bottom: .5rem;
+}
+
+body.page-node-type-article div.views-element-container > div.view-dk-ff-pdf-media-evas-download-link {
+	margin-bottom: 2rem;
+}
+
+
+
+div.view-dk-ff-eva-issue-content {
+	display: block;
+	float: none;
+	clear: both;
+	margin-top: 2rem;
+}
+
+
+span.field--name-title {
+	font-size: 24px;
+}
+
+
+/* metadata label color */
+div.content div.views-element-container strong, 
+div.content div.field__label {
+	font-weight: bold;
+	color: #004899;
+	white-space: nowrap;
+}
+
+div.content div.views-field-field-references strong {
+	white-space: normal;
+}
+
+body.page-node-type-serial div.form-radios {
+	display: flex;
+}
+
+
+body.page-node-type-serial div.form-radios > div:first-child {
+	margin-right: 2rem;
+}
+
+
+div.view-dk-ff-eva-next-and-previous-series {
+/*	display: flex; */
+}
+
+div.view-dk-ff-eva-next-and-previous-series header {
+	margin-right: 0.4rem;
+}
+
+div.view-dk-ff-serial-volumes thead {
+        display: none;
+}
+
+div.view-dk-ff-serial-volumes tr {
+        background-color: white;
+}
+
+
+/* Spisy ff - facety */
+#block-seriesnumber li.facet-item {
+  display: inline;
+  margin-right: 0.5rem;
+  margin-left: 0;
+  padding: 0;
+}
+
+div.volume_group {
+	display: flex;
+	margin-right: 3rem;
+}
+
+div.volume_label {
+	min-width: 10rem;
+	margin-right: 3rem;
+	/* white-space: nowrap; */
+	/* width: 100%; */
+}
+
+div.volume_label > span.year {
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+div.view-dk-ff-serial-volumes.inline {
+	display: inherit;
+	column-count: 2;
+}
+
+div.group_issues {
+}
+
+div.year-volume-issue {
+	display: flex;
+	color: #555;
+	font-weight: normal;
+	margin-top: 1rem;
+}
+
+div.year-volume-issue div {
+	font-size: 20px;
+}
+
+
+div.year-volume-issue > div:not(:last-child)::after {
+	content: " / ";
+	padding: 0 .6rem 0 .4rem;
+}
+
+/*
+div.year-volume-issue > div:last-child::after {
+	content: "";
+}
+*/
+
+div.year-volume-issue span.label {
+	font-weight: bold;
+	color: #004899;
+}
+
+div.year-volume-issue span.field--name-title {
+	font-size: inherit;
+}
+
+div.view-dk-ff-eva-issue-content h2 {
+	font-weight: bold;
+	color: #004899;
+	font-size: 1.2rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+div.view-dk-ff-eva-book-table-of-contents table > thead,
+div.view-dk-ff-eva-issue-table-of-contents table > thead {
+	display: none;
+}
+
+div.view-dk-ff-eva-book-table-of-contents td,
+div.view-dk-ff-eva-issue-table-of-contents td,
+div.view-dk-ff-books-in-series td {
+	background-color: white;
+}
+
+div.view-dk-ff-eva-book-table-of-contents table,
+div.view-dk-ff-eva-issue-table-of-contents table {
+	border-collapse: separate; 
+	width: 100%;
+}
+
+div.view-dk-ff-eva-book-table-of-contents caption,
+div.view-dk-ff-eva-issue-table-of-contents caption {
+	color: #004899;
+	padding-top: 1rem;
+	font-weight: bold;
+	text-align: left;
+}	
+
+div.view-dk-ff-eva-book-table-of-contents a,
+div.view-dk-ff-eva-issue-table-of-contents a {
+	color: #004899;
+}
+
+div.view-dk-ff-eva-book-table-of-contents td.views-field-title,
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-title {
+	text-align: left;
+	padding-left: 0;
+	white-space: normal;
+	min-width: 50rem;
+}
+
+/*
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-title > div,
+div.view-dk-ff-eva-book-table-of-contents td.views-field-title > div {
+	display: flex;
+}
+
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-title > div > div:last-child {
+	width: 100%;
+}
+*/
+
+div.view-dk-ff-eva-book-table-of-contents td.views-field-field-chapter-number {
+	text-align: right;
+	width: 3rem;
+	padding-right: 1rem;
+	vertical-align: top;
+}
+
+div.view-dk-ff-eva-book-table-of-contents td.views-field-field-chapter-number:empty {
+	display: none;
+}
+
+
+
+
+span.views-field-field-media-document a,
+div.view-dk-ff-eva-book-table-of-contents td.views-field-nothing a,
+div.view-dk-ff-eva-book-table-of-contents td.views-field-nothing div.not-available,
+div.view-dk-ff-eva-book-table-of-contents td.views-field-nothing-2 a,
+div.view-dk-ff-eva-book-table-of-contents td.views-field-nothing-2 div.not-available,
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-field-media-document-1 a,
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-field-media-document-1 div.not-available,
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-field-media-document-2 a,
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-field-media-document-2 div.not-available {
+	font-weight: bold;
+	color: #004899;
+	text-decoration: none;
+	padding: .2rem 3rem;
+	border: 1px solid #555;
+	border-radius: 0px;
+	text-align: center;
+	width: 3rem;
+	margin: auto 0 auto auto;
+	/* display: flex; */
+	white-space: nowrap;
+}
+
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-field-media-document-1,
+div.view-dk-ff-eva-issue-table-of-contents td.views-field-field-media-document-2 {
+	text-align: right;
+}
+
+
+div.not-available img {
+/*	align-self: flex-end; */
+}
+
+span.views-field-field-file-size-value {
+	color: #004899;
+	font-weight: bold;
+	padding: 0 .5rem;
+}
+
+span.views-field-field-file-size-value::before {
+	content: " [";
+}
+
+span.views-field-field-file-size-value::after {
+	content: "] ";
+}
+
+div.view-dk-ff-eva-issue-table-of-contents td,
+div.view-dk-ff-eva-book-table-of-contents td {
+	border-bottom: 1px dotted #555;
+	padding: 1.2rem 0;
+}
+
+/*
+td.views-field.views-field-field-pagination.views-align-right {
+    min-width: inherit;
+}
+*/
+
+div.views-field-field-variant-title {
+	display: flex;
+}
+
+
+div.views-field-field-variant-title div.field-content {
+	margin-left: .5rem;
+}
+
+div.views-field-field-variant-title div.field-content > div.item-list > ul > li > div > ul,
+div.views-field-field-variant-title div.field-content > div.item-list > ul {
+	margin: 0;
+}
+
+div.views-field-field-variant-title div.field-content > div.item-list > ul > li > div > ul > li,
+div.views-field-field-variant-title div.field-content > div.item-list > ul > li {
+	padding: 0;
+}
+	
+body.page-node-type-article div.view-dk-ff-pdf-media-evas-download-link {
+	margin-bottom: 2rem;
+}
+
+
+div.view-dk-ff-pdf-media-evas-download-link {
+	margin-top: 2rem;
+}
+
+
+div.view-dk-ff-pdf-media-evas-download-link div.views-row {
+	display: flex;
+}
+
+div.content div.field--name-field-description {
+	display: flow-root;
+/*	margin-top: 2rem;
+	clear: both; */
+}
+
+
+div.content div.field--name-field-description > div.field__items > div:not(:first-child) {
+	margin-top: 1rem;
+}
+
+div.content div.field--name-field-description div.field__label {
+	float: none;
+}
+
+
+div.content div.field--name-field-description span.language {
+	font-weight: bold;
+	color: #004899;
+}
+
+
+
+
+div.content div.field--name-field-description span.language::before {
+	content: '[';
+}
+
+div.content div.field--name-field-description span.language::after {
+	content: ']';
+}
+
+details {
+	border: none;
+}
+
+summary {
+	background-color: white;
+	text-shadow: none;
+	color: #004899;
+	text-decoration: underline;
+}
+
+
+/* odstavec u description */
+ul.double-field-list li.container-inline {
+	padding: 0;
+}
+div.field--name-field-description > div.field__items > div.field__item {
+	margin-bottom: 0.5rem;
+
+}
+
+
+div.views-field-field-references,
+/*div.views-field-field-keywords {
+	margin-top: 2rem;
+	margin-bottom: .5rem;	
+}*/
+
+div.content div.views-field-field-keywords strong,
+/* div.content div.field--name-field-description div.field__label, */
+span.views-label-field-references {
+	font-weight: bold;
+	color: #004899;
+/*	font-size: 1.1rem; */
+}
+
+div.content div.field--name-field-note {
+/*	margin: 0; */
+}
+
+
+div.content div.field--name-field-note ul.double-field-list > li:last-of-type:not(:only-of-type) {
+	margin-top: .5rem;
+}
+
+div.content div.field--name-field-note .item-list ul,
+div.content div.field--name-field-note li {
+	margin: 0;
+	padding: 0;
+}
+
+div.content div.views-field-field-references div.field-content {
+	margin-top: .5rem;
+}
+
+div.content div.views-field-field-references div.field-content strong {
+/*	font-style: italic;
+	font-weight: normal; */
+	color: inherit;
+}
+
+div.content div.views-field-field-references div.field-content small {
+	font-size: inherit;
+}
+
+div.content div.views-field-field-references div.field-content a {
+	color: #004899;
+}
+
+
+
+div.topic-item-list-wrapper h3 {
+	display: none;
+}
+
+div.view-dk-ff-topics a {
+	text-decoration: none;
+}
+
+div.view-dk-ff-topics div.view-grouping-header a {
+	display: inline-block;
+}
+
+html[lang='en'] body.path-taxonomy h1.page-title,
+div.view-dk-ff-topics div.view-grouping-header a[hreflang='en'] {
+       text-transform: capitalize;
+}
+
+html[lang='cs'] body.path-taxonomy h1.page-title::first-letter,
+div.view-dk-ff-topics div.view-grouping-header a[hreflang='cs']::first-letter {
+       text-transform: uppercase;
+}
+
+
+div.view-dk-ff-eva-domain {
+	margin-top: 1rem;
+}
+
+div.view-dk-ff-eva-taxonomy-collections h3 {
+	margin-top: 1rem;
+	font-size: 1.15rem;
+}
+
+div.view-dk-ff-eva-taxonomy-collections-title {
+	padding-top: 1rem;
+}
+
+div.view-dk-ff-eva-department div.views-row {
+	margin-bottom: 0;
+}
+
+div.view-dk-ff-taxonomy-term {
+	padding: .5rem 0;
+}
+
+div.view-dk-ff-taxonomy-term nav.pager {
+	display: none;
+}
+
+div.view-dk-ff-eva-taxonomy-url {
+	text-transform: none;
+}
+
+div.view-dk-ff-eva-department {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+div.view-dk-ff-departments-index {
+	padding-top: 1rem;
+}
+
+div.view-dk-ff-eva-department > div:first-child {
+	margin-right: 0.3rem;
+}
+
+div.view-dk-ff-eva-taxonomy-url > div > div > span.field-content > a,
+div.field--name-field-domain > div.field__items > div.field__item > a,
+div.view-dk-ff-eva-department > div.taxonomy-group-item > div > span > a {
+}
+
+
+/* inline list for deparments */
+div.view-grouping {
+	margin-bottom: 1rem;
+}
+
+
+div.view-grouping > div.view-grouping-header {
+	font-weight: bold;
+}
+
+div.view-grouping > div.view-grouping-header {
+	font-weight: bold;
+}
+
+div.view-grouping-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+ul.topic-item-list {
+	list-style-type: none;
+  	padding: 0;
+	display: inline-block;
+}
+
+div.view-grouping-content > div.topic-item-list-wrapper::after {
+	content: " | ";
+	padding-right: .3rem;
+}
+
+
+div.view-grouping-content > div.topic-item-list-wrapper:last-child::after {
+	content: "";
+}
+
+
+
+div.vocabulary-dk-ff-domain  div.view-dk-ff-eva-domain,
+div.field--name-field-domain div.field__items
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+div.vocabulary-dk-ff-domain div.view-dk-ff-eva-domain div.views-row:first-child {
+	width: 100%;
+	font-size: 24px;
+}
+
+div.field--name-field-domain > div.field__label::after,
+div.field--name-field-department-mu > div.field__label::after {
+	content: ": ";
+}
+
+div.vocabulary-dk-ff-domain > div > div.views-element-container > div.view-dk-ff-eva-domain > div.views-row > div.views-field,
+div.vocabulary-dk-ff-department-mu > div > div.views-element-container > div.view-dk-ff-eva-department > div.views-row > div.views-field,
+div.field--name-field-domain div.field__items > div.field__item {
+	display: inline-block;
+
+}
+
+div.view-dk-ff-eva-domain > div.taxonomy-group-item.views-row::after,
+div.view-dk-ff-eva-department > div.taxonomy-group-item.views-row::after,
+div.field--name-field-domain div.field__items > div.field__item::after {
+	content: " | ";
+}
+
+div.view-dk-ff-eva-domain > div.taxonomy-group-item.views-row:last-child::after,
+div.view-dk-ff-eva-department > div.taxonomy-group-item.views-row:last-child::after,
+div.field--name-field-domain div.field__items > div.field__item:last-child::after {
+	content: "";
+}
+
+div.view-dk-ff-eva-taxonomy-books h3,
+div.view-dk-ff-eva-taxonomy-collections h3,
+div.view-dk-ff-eva-taxonomy-recent h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+div.view-dk-ff-eva-taxonomy-books div.view-grouping-content {
+	display: inherit;
+	margin: 0;
+}
+
+div.view-dk-ff-eva-taxonomy-recent {
+	margin-top: 2rem;
+}
+
+div.view-dk-ff-eva-taxonomy-recent div.views-row {
+	display: flex;
+	margin-bottom: 0.2rem;
+}
+
+div.view-dk-ff-eva-taxonomy-recent div.views-field-type {
+	margin-right: 0.5rem;
+}	
+
+div.view-dk-ff-eva-taxonomy-recent div.views-field-type::after {
+	content: ":"
+}
+
+
+div.view-dk-ff-eva-department {
+	margin-bottom: 1rem;
+}
+
+
+div.block-facet-blockauthors-glossary li.glossaryaz,
+.block-facets .glossaryaz.yes-results,
+.block-facets .glossaryaz.yes-results a {
+	font-size: inherit;
+	color: #004899;
+}
+
+.block-facets .glossaryaz.yes-results a.is-inactive:hover, 
+div.block-facet-blockauthors-glossary li.glossaryaz.is-active {
+	background-color: #004899;
+	color: white;
+}
+
+ul > li.glossaryaz.facet-item:nth-child(n+33) {
+        display: none;
+}
+
+
+.tooltip::before {
+  content: " i ";
+  border: 1px solid #555;
+  padding: 0px 6px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: inherit;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  max-width: 980px;
+  min-width: 460px;
+  background-color: white;
+  color: inherit;
+  text-align: left;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 2px solid #555;
+  box-shadow: 5px 10px 8px #888888;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 0%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.icon-info {
+  float: left;
+  border: 1px solid #0000dc;
+  background-color: #DDDDDD;
+  display: none;
+}
+
+
+
+.searchtooltip::after {
+  content: " i ";
+  border: 1px solid #0000dc;
+  padding: 0px 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #0000dc;
+  background-color: #EFEFEF;
+}
+
+
+.searchtooltip {
+  position: relative;
+  display: block;
+}
+
+.searchtooltip .searchtooltiptext {
+  visibility: hidden;
+  max-width: 980px;
+  min-width: 640px;
+  background-color: white;
+  color: blue;
+  text-align: left;
+  border-radius: 0;
+  padding: 0.5rem;
+  border: 2px solid #0000DC;
+  box-shadow: 5px 10px 8px #888888;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  /* top: 100%;
+  bottom: 0%; */
+  left: 0%;
+}
+
+.searchtooltip:hover .searchtooltiptext {
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+	
+div.view-dk-ff-serial-volumes.inline {
+
+    display: inherit;
+    column-count: 1;
+
+}
+
+}
+
+
+/** change the position of CH in glossary lists */
+div.js-facet-block-id-glossaryaztitletransliterated ul,
+div.block-facet-blockauthors-glossary ul {
+	display: flex;
+}
+
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(1) { order: 1; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(2) { order: 2; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(3) { order: 3; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(4) { order: 4; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(5) { order: 5; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(6) { order: 11; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(7) { order: 6; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(8) { order: 7; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(9) { order: 8; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(10) { order: 9; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(11) { order: 10; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(12) { order: 12; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(13) { order: 13; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(14) { order: 14; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(15) { order: 15; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(16) { order: 16; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(17) { order: 17; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(18) { order: 18; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(19) { order: 19; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(20) { order: 20; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(21) { order: 21; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(22) { order: 22; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(23) { order: 23; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(24) { order: 24; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(25) { order: 25; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(26) { order: 26; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(27) { order: 27; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(28) { order: 28; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(29) { order: 29; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(30) { order: 30; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(31) { order: 31; }
+div.js-facet-block-id-glossaryaztitletransliterated ul > li:nth-child(32) { order: 32; }
+
+
+div.block-facet-blockauthors-glossary ul > li:nth-child(1) { order: 1; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(2) { order: 2; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(3) { order: 3; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(4) { order: 4; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(5) { order: 10; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(6) { order: 5; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(7) { order: 6; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(8) { order: 7; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(9) { order: 8; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(10) { order: 9; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(11) { order: 11; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(12) { order: 12; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(13) { order: 13; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(14) { order: 14; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(15) { order: 15; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(16) { order: 16; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(17) { order: 17; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(18) { order: 18; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(19) { order: 19; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(20) { order: 20; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(21) { order: 21; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(22) { order: 22; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(23) { order: 23; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(24) { order: 24; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(25) { order: 25; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(26) { order: 26; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(27) { order: 27; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(28) { order: 28; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(29) { order: 29; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(30) { order: 30; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(31) { order: 31; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(32) { order: 32; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(33) { order: 33; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(34) { order: 34; }
+div.block-facet-blockauthors-glossary ul > li:nth-child(35) { order: 35; }
+
+div.keyword_group {
+  	display: inline-flex;
+}
+
+div.keyword_group > div.views-row > div.keyword_lang {
+  	display: none;
+}
+
+div.keyword_group > div:not(:first-child) {
+	display: flex;
+	margin-right: .3rem;
+}
+
+div.keyword_group > div:not(:first-child):not(:last-child)::after {
+  content: "\; ";
+}

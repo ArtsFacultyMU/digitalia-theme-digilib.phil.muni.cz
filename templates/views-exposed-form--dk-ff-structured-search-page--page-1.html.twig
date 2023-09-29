@@ -1,0 +1,50 @@
+{#
+/**
+ * @file
+ * Theme override for a views exposed form.
+ *
+ * Available variables:
+ * - form: A render element representing the form.
+ *
+ * @see template_preprocess_views_exposed_form()
+ */
+#}
+{% if q is not empty %}
+  {#
+    This ensures that, if clean URLs are off, the 'q' is added first,
+    as a hidden form element, so that it shows up first in the POST URL.
+  #}
+{{ q }}
+{% endif %}
+<div class="form--inline clearfix structured-search-basic-exposed-form">
+  <div class="form--inline">
+    {{ form.search_api_fulltext_1 }}
+    {{ form.search_api_fulltext }}
+  </div>
+  <div class="form--inline">
+    {{ form.author_names }}
+    {{ form.search_api_fulltext_2 }}
+  </div>
+  <div class="form--inline">
+    {{ form.field_language }}
+    {{ form.aggregated_field_published_to }}
+    {{ form.aggregated_field_published }}
+  </div>
+  <div class="form--inline">
+    {{ form.aggregated_field_subject }}
+    {{ form.field_topic }}
+    {{ form.field_department_mu }}
+  </div>
+  <div class="form--inline">
+    {{ form.type }}
+    {{ form.aggregated_field_issn_isbn }}
+  </div>
+  <div class="form--inline">
+    {{ form.items_per_page }}
+    {{ form.sort_bef_combine }}
+  </div>
+  <div class="main-search-button">
+    {{ form.actions }}
+  </div>
+  {{ form.field_descendant_of }}
+</div>
