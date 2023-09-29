@@ -1,0 +1,2 @@
+{#<span class="language">{{ item.second }}</span>#}
+{{ item.first|replace({"\r\n":"$", "\n":"$"})|replace({"$$":"<br>"})|replace({"$":" "})|raw }}
