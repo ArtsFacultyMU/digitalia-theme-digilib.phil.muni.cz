@@ -389,8 +389,10 @@ div.view-dk-ff-collections div.view-content {
 	margin-top: -1rem;
 }
 
+body.page-node-type-book div.field--type-image,
 body.page-node-type-serial div.field--type-image {
 	margin-right: 2rem;
+	margin-left: 2rem;
 }
 
 .node div.field--type-image {
@@ -423,6 +425,10 @@ div.view-dk-ff-eva-title > div > div.views-field-title > span > div:first-child 
 
 
 div.view-dk-ff-eva-title > div > div.views-field-title > span > div:nth-child(2) {
+}
+
+div.view-dk-ff-eva-issue-content > div.views-view-grid > div.views-row > div.views-col:last-child {
+	padding-left: 15px;
 }
 
 div.field--name-field-domain a,
@@ -479,11 +485,6 @@ body.page-node-type-book div.content div.field,
 body.page-node-type-volume div.content div.field {
 	margin-bottom: .5rem;
 }
-
-body.page-node-type-article div.views-element-container > div.view-dk-ff-pdf-media-evas-download-link {
-	margin-bottom: 2rem;
-}
-
 
 
 div.view-dk-ff-eva-issue-content {
@@ -750,16 +751,34 @@ div.views-field-field-variant-title div.field-content > div.item-list > ul > li 
 div.views-field-field-variant-title div.field-content > div.item-list > ul > li {
 	padding: 0;
 }
-	
-body.page-node-type-article div.view-dk-ff-pdf-media-evas-download-link {
-	margin-bottom: 2rem;
-}
 
-
-div.view-dk-ff-pdf-media-evas-download-link {
+fieldset#fulltext-links {
+	border: 0;
 	margin-top: 2rem;
+	padding: 0;
 }
 
+fieldset#fulltext-links > legend {
+	display: none;
+}
+
+fieldset#fulltext-links > div.fieldset-wrapper {
+	display: flex;
+}
+
+
+div.links-to-fulltexts div.views-row {
+	margin-right: 2rem;
+	display: flex;
+}
+
+div.links-to-fulltexts {
+	display: flex;
+}
+
+div.view-dk-ff-pdf-media-evas-feedback a {
+	padding-left: 1rem;
+}
 
 div.view-dk-ff-pdf-media-evas-download-link div.views-row {
 	display: flex;
