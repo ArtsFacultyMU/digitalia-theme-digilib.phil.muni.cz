@@ -401,6 +401,7 @@ body.page-node-type-serial div.field--type-image {
 
 div.field--type-image img {
 	width: 17rem;
+	border: 1px solid #DDD;
 }
 
 
