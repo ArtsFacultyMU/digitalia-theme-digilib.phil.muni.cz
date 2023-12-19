@@ -137,6 +137,11 @@ div.main-search-button input.button {
 	min-width: 7rem;
 }
 
+div.view-dk-ff-eva-link-to-contextual-search div.views-field {
+	border: 1px dotted gray;
+	padding: .5rem 2rem;
+	width: fit-content;
+}
 
 div.view-dk-ff-titles > div.view-filters,
 div.view-dk-ff-authors-page > div.view-filters {
@@ -1268,6 +1273,10 @@ div.block-facet-blockauthors-glossary ul > li:nth-child(35) { order: 35; }
 
 div.keyword_group {
   	display: inline-flex;
+}
+
+div.keyword_group div.keyword-item {
+	white-space: nowrap;
 }
 
 div.keyword_group > div.views-row > div.keyword_lang {
