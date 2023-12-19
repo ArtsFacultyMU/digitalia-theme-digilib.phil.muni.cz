@@ -1273,9 +1273,10 @@ div.block-facet-blockauthors-glossary ul > li:nth-child(35) { order: 35; }
 
 div.keyword_group {
   	display: inline-flex;
+	flex-wrap: wrap;
 }
 
-div.keyword_group div.keyword-item {
+div.keyword_group div.keyword_item a {
 	white-space: nowrap;
 }
 
