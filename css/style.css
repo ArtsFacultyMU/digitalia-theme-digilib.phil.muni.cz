@@ -843,12 +843,11 @@ div.field--name-field-description > div.field__items > div.field__item {
 
 }
 
-
-div.views-field-field-references,
-/*div.views-field-field-keywords {
-	margin-top: 2rem;
+div.views-field-field-references
+/*div.views-field-field-keywords */ {
+	margin-top: 1.5rem;
 	margin-bottom: .5rem;	
-}*/
+}
 
 div.content div.views-field-field-keywords strong,
 /* div.content div.field--name-field-description div.field__label, */
