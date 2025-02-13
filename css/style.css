@@ -1291,3 +1291,16 @@ div.keyword_group > div:not(:first-child) {
 div.keyword_group > div:not(:first-child):not(:last-child)::after {
   content: "\; ";
 }
+
+div.block-facet--links ul {
+  display: inline-flex;
+  padding-left: 0;
+}
+
+li.facet-item > label {
+  font-weight: normal;
+}
+
+#block-seriesnumber li.facet-item {
+  margin-right: 1rem;
+}
