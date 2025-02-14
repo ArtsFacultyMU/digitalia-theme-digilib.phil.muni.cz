@@ -1292,12 +1292,12 @@ div.keyword_group > div:not(:first-child):not(:last-child)::after {
   content: "\; ";
 }
 
-div.block-facet--links ul {
-  display: inline-flex;
+#block-seriesnumber div.block-facet--links ul {
+  display: inline-flex; 
   padding-left: 0;
 }
 
-li.facet-item > label {
+#block-seriesnumber li.facet-item > label {
   font-weight: normal;
 }
 
